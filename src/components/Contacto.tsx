@@ -42,11 +42,24 @@ const Contacto = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-iglesia-azul-oscuro mb-1">Teléfono</h4>
+                  <p className="text-gray-600">
+                    Pastor Jonathan
+                  </p>
                   <a 
                     href="tel:+34607498181" 
                     className="text-iglesia-azul-medio hover:text-iglesia-azul-oscuro transition-colors"
                   >
-                    +34 607 49 81 81
+                    607 49 81 81
+                  </a>
+                  <br />
+                  <p className="text-gray-600">
+                    Pastor Miguel
+                  </p>
+                  <a 
+                    href="tel:+34661512505" 
+                    className="text-iglesia-azul-medio hover:text-iglesia-azul-oscuro transition-colors"
+                  >
+                    661 51 25 05
                   </a>
                 </div>
               </div>
@@ -60,8 +73,9 @@ const Contacto = () => {
                 <div>
                   <h4 className="text-lg font-medium text-iglesia-azul-oscuro mb-1">Horarios</h4>
                   <p className="text-gray-600">
-                    Domingos: 11:00 - 13:00 <br />
-                    Miércoles: 19:00 - 20:30
+                    Domingos: 19:00 - 21:00 <br />
+                    Martes: 19:30 - 21:00 <br />
+                    Jueves: 18:30 - 20:00 <br />
                   </p>
                 </div>
               </div>

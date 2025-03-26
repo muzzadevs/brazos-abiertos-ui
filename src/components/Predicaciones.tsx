@@ -7,24 +7,10 @@ import PredicacionCard from './PredicacionCard';
 const predicacionesEjemplo = [
   {
     id: 1,
-    titulo: "El amor incondicional de Dios",
-    predicador: "Pastor Juan Martínez",
-    audioUrl: "/public/audios/predicacion1.mp3", // Ruta de ejemplo
-    fecha: "18-06-2023"
-  },
-  {
-    id: 2,
-    titulo: "Fe en tiempos difíciles",
-    predicador: "Pastora María Gómez",
-    audioUrl: "/public/audios/predicacion2.mp3", // Ruta de ejemplo
-    fecha: "25-06-2023"
-  },
-  {
-    id: 3,
-    titulo: "El poder de la oración",
-    predicador: "Diácono Pedro Rodríguez",
-    audioUrl: "/public/audios/predicacion3.mp3", // Ruta de ejemplo
-    fecha: "02-07-2023"
+    titulo: "Predicación de prueba",
+    predicador: "Voz anónima",
+    audioUrl: "/audios/predicacion1.mp3", // Ruta de ejemplo
+    fecha: "26-03-2025"
   }
 ];
 

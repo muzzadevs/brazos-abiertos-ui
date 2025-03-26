@@ -27,13 +27,13 @@ const Hero = () => {
       
       {/* Contenido centrado */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-4 text-white">
-        <div ref={logoRef} className="glass rounded-full p-8 mb-10 animate-pulse-slow">
+        
           <img
-            src="/lovable-uploads/2877c561-e978-435f-84cb-b743fd876ff2.png"
+            src="/lovable-uploads/logoBA_white.png"
             alt="Logo Brazos Abiertos"
-            className="w-32 h-32 md:w-48 md:h-48 object-contain"
+            className="w-32 h-32 md:w-48 md:h-48 object-contain mb-8"
           />
-        </div>
+        
         
         <h1 className="text-4xl md:text-6xl font-bold text-center mb-4 animate-fade-in">
           Brazos Abiertos
