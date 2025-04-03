@@ -3,14 +3,14 @@ import React from 'react';
 import { Play, Pause, Volume2, SkipBack, SkipForward } from 'lucide-react';
 import PredicacionCard from './PredicacionCard';
 
-// Datos de ejemplo para las predicaciones
-const predicacionesEjemplo = [
+// Predicaciones
+const predicaciones = [
   {
     id: 1,
-    titulo: "Predicación de prueba",
-    predicador: "Voz anónima",
-    audioUrl: "/audios/predicacion1.mp3", // Ruta de ejemplo
-    fecha: "26-03-2025"
+    titulo: "Inversiones",
+    predicador: "Jonathan Rego",
+    audioUrl: "/audios/inversiones_J_REGO.mp3", // Ruta de ejemplo
+    fecha: "30-03-2025"
   }
 ];
 
@@ -31,7 +31,7 @@ const Predicaciones = () => {
         </div>
 
         <div className="space-y-6">
-          {predicacionesEjemplo.map((predicacion) => (
+          {predicaciones.map((predicacion) => (
             <PredicacionCard key={predicacion.id} predicacion={predicacion} />
           ))}
         </div>
