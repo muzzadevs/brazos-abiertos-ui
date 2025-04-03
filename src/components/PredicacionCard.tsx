@@ -81,12 +81,15 @@ const PredicacionCard: React.FC<PredicacionProps> = ({ predicacion }) => {
     }
   };
 
-  // Formatear tiempo para mostrar
-  const formatTime = (timeInSeconds: number) => {
-    const minutes = Math.floor(timeInSeconds / 60);
-    const seconds = Math.floor(timeInSeconds % 60);
-    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-  };
+// Formatear tiempo para mostrar
+const formatTime = (timeInSeconds: number) => {
+  const hours = Math.floor(timeInSeconds / 3600);
+  const minutes = Math.floor((timeInSeconds % 3600) / 60);
+  const seconds = Math.floor(timeInSeconds % 60);
+
+  return `${hours}:${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+};
+
 
   return (
     <div className="glass-card p-6 transition-all duration-300 hover:shadow-lg animate-fade-in">
