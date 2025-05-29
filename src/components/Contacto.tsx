@@ -13,7 +13,7 @@ const Contacto = () => {
             Contacto
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Nos encantaría que nos visitaras y te unieras a nuestra comunidad
+            Nos encantaría que nos visitaras y buscasemos juntos al Señor.
           </p>
         </div>
 

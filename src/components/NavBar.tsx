@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -67,7 +66,7 @@ const NavBar = () => {
 
         {/* Navegación escritorio */}
         <div className="hidden md:flex space-x-8">
-          {['inicio', 'predicaciones', 'contacto'].map((item) => (
+          {['inicio', 'credo', 'predicaciones', 'contacto'].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}
@@ -96,7 +95,7 @@ const NavBar = () => {
         } md:hidden flex flex-col items-center justify-center`}
       >
         <div className="flex flex-col items-center space-y-8">
-          {['inicio', 'predicaciones', 'contacto'].map((item) => (
+          {['inicio', 'credo', 'predicaciones', 'contacto'].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}
