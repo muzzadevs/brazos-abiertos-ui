@@ -32,10 +32,15 @@ const Contacto = () => {
                   <h4 className="text-lg font-medium text-iglesia-azul-oscuro mb-1">
                     Dirección
                   </h4>
-                  <p className="text-gray-600">
+                  <a
+                    href="https://maps.app.goo.gl/xqk3MEKGafQTwsu2A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-iglesia-azul-medio"
+                  >
                     Avenida Lehendakari Aguirre 186, <br />
                     San Ignacio, Bilbao
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -87,9 +92,9 @@ const Contacto = () => {
                     Horarios
                   </h4>
                   <p className="text-gray-600">
-                    Domingos: 19:00 - 21:00 <br />
-                    Martes: 19:30 - 21:00 <br />
-                    Jueves: 18:30 - 20:00 <br />
+                    Domingos de celebración a las 19:00 <br />
+                    Martes de oración a las 19:30 <br />
+                    Jueves de estudio a las 18:30 <br />
                   </p>
                 </div>
               </div>
